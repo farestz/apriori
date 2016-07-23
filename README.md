@@ -5,7 +5,7 @@ A simple implementation of the [apriori algorithm](https://en.wikipedia.org/wiki
 `Apriori` takes a list of strings, representing number sequences, and an integer, representing the percentage of sequences the pattern must match for being considered.
 
 ```python
->> import apriort
+>> import apriori
 >> data = ['1,2, 4, 5', '2, 4,5', '4,5', '1, 2, 3']
 >> patterns = apriori.Apriori(data, 34)
 >> patterns
