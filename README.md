@@ -1,7 +1,4 @@
 # Apriori
-
-## About
-
 A simple implementation of the [apriori algorithm](https://en.wikipedia.org/wiki/Apriori_algorithm). A method for extracting frequent substructures in a set of sequences of ordered events.
 
 ## How To
