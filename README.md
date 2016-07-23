@@ -9,11 +9,10 @@ A simple implementation of the [apriori algorithm](https://en.wikipedia.org/wiki
 `Apriori` takes a list of strings, representing number sequences, and an integer, representing the percentage of sequences the pattern must match for being considered.
 
 ```python
-In [1]: import apriort
-In [2]: data = ['1,2, 4, 5', '2, 4,5', '4,5', '1, 2, 3']
-In [3]: patterns = apriori.Apriori(data, 34)
-In [4]: patterns
-Out[4]:
+>> import apriort
+>> data = ['1,2, 4, 5', '2, 4,5', '4,5', '1, 2, 3']
+>> patterns = apriori.Apriori(data, 34)
+>> patterns
 {'1, 2': 2,
  '2, 4': 2,
  '4, 5': 3,
